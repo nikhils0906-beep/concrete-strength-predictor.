@@ -1,4 +1,13 @@
 import streamlit as st
+st.markdown("""
+<div style="text-align: right; font-size: 14px; color: gray;">
+    Developed by:<br>
+    <b>Nikhil</b><br>
+    <b>Sufiyan</b>
+</div>
+""", unsafe_allow_html=True)
+
+st.divider()
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
